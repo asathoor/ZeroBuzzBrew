@@ -240,15 +240,16 @@ header label {
   
   /* Style the front side (fallback if image is missing) */
   .flip-card-front {
-    background-color: #bbb;
+    background-color: var(--sort);
     color: black;
   }
   
   /* Style the back side */
   .flip-card-back {
-    background-color: dodgerblue;
-    color: white;
+    background-color: var(--sort);
+    color: var(--hvid);
     transform: rotateY(180deg);
+    align-content: center;
   }
 
 
