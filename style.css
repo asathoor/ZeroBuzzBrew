@@ -242,7 +242,13 @@ footer a:active {
 #socialmedier {
     display: flex;
     justify-content: space-between;
-    flex-direction: column;
+    gap: 20px;
+    align-items: end;
+}
+
+#socialmedier img {
+    width: 60px;
+    height: 60px;
 }
 
 #section1 {
