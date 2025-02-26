@@ -27,7 +27,6 @@
 
 
 header {
-    position: fixed;
     width: 100%;
     background: var(--hvid);
     box-shadow: 0 5px 10px rgba(0,0,0,0.1);
@@ -36,6 +35,9 @@ header {
     z-index: 1000;
     text-transform: uppercase;
     border: 2px solid blue;
+    position: sticky;
+
+
 
 }
 
@@ -135,9 +137,7 @@ header label {
     display: none;
 }
 
-main {
-    margin: 500px 7% 0 7%;
-}
+
 
 footer {
     background: var(--sort);
