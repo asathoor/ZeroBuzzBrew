@@ -16,13 +16,29 @@
     --graa: #5e6b7f;
 
     
-    --fatface:    font-family: "Abril Fatface", serif;
-    --signika:    font-family: "Signika", serif;
+    --fatface: "Abril Fatface", serif;
+    --signika:  "Signika", serif;
 }
 
-* {
+body {
     margin: 0%;
+    background-color: var(--hvid);
 }
+
+h2 {
+    font-family: var(--fatface);
+    font-size: 40px;
+}
+
+a {
+    font-family: var(--fatface);
+}
+
+p {
+    font-family: var(--signika);
+}
+
+
 
 
 
@@ -148,20 +164,26 @@ header label {
 }
 
 
-#bestsellere {
-    border: 4px solid red;
+#bestsell {
+    padding: 30px;
+    text-align: center;
+    color: #172442;
+}
 
-    width: 70%;
+#bestsellere {
+    margin: auto;
+    width: 50%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+}
+
+
+.brew {
+    width: 90%;
 }
 
 #gronbrew {
-    width: 20%;
-}
-
-.brew {
-    width: 20%;
+    width: 130%;
 }
 
 
@@ -170,7 +192,7 @@ header label {
 
 
 footer {
-    background: var(--sort);
+    background-color: var(--sort);
     color: var(--hvid);
     padding: 5%;
     line-height: 1.6;
@@ -190,25 +212,30 @@ footer {
     flex-direction: column;
     align-self: center;
     justify-content: space-between;
+    align-self: flex-end;
+}
+
+footer a {
+    font-family: var(--signika);
 }
 
 /* unvisited link */
-a:link {
+footer a:link {
     color: var(--hvid);
   }
   
   /* visited link */
-  a:visited {
+footer a:visited {
     color: var(--hvid);
   }
   
   /* mouse over link */
-  a:hover {
+footer a:hover {
     color: var(--graa);
   }
   
   /* selected link */
-  a:active {
+footer a:active {
     color: var(--blaa);
   }
 
