@@ -180,18 +180,45 @@ footer {
 
 .footer {
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
     gap: 60px;
+    width: 100%;
 }
 
 #footerlinks {
     display: flex;
-    justify-content: space-between;
     flex-direction: column;
+    align-self: center;
+    justify-content: space-between;
 }
+
+/* unvisited link */
+a:link {
+    color: var(--hvid);
+  }
+  
+  /* visited link */
+  a:visited {
+    color: var(--hvid);
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: var(--graa);
+  }
+  
+  /* selected link */
+  a:active {
+    color: var(--blaa);
+  }
 
 #socialmedier {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
+}
+
+#section1 {
+    display: flex;
+    gap: 10%;
 }
