@@ -1,4 +1,8 @@
-
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 :root {
     --sort: #172442;
@@ -129,4 +133,14 @@ header label {
 
 #menu-bar {
     display: none;
+}
+
+main {
+    margin: 500px 7% 0 7%;
+}
+
+footer {
+    background: var(--sort);
+    color: var(--hvid);
+    padding: 20px;
 }
