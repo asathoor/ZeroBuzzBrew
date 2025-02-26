@@ -142,5 +142,12 @@ main {
 footer {
     background: var(--sort);
     color: var(--hvid);
-    padding: 20px;
+    padding: 5%;
+    line-height: 1.6;
+    display: flex;
+}
+
+#footerlinks {
+    display: flex;
+    justify-content: space-between;
 }
