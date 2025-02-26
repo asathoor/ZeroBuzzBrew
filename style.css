@@ -32,6 +32,11 @@ h2 {
     font-size: 40px;
 }
 
+h3 {
+    font-family: var(--fatface);
+    font-size: 30px;
+}
+
 a {
     font-family: var(--fatface);
 
@@ -272,6 +277,15 @@ header label {
       gap: 20px;
   }
 
+
+
+
+  #ølletsRejse {
+    text-align: center;
+    padding: 30px;
+    color: var(--sort);
+    color: #172442;
+  }
 
 
 
