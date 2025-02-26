@@ -11,8 +11,10 @@
     --brun: #57341c;
     --graa: #5e6b7f;
 
+    
+    --fatface:    font-family: "Abril Fatface", serif;
+    --signika:    font-family: "Signika", serif;
 }
-
 
 header {
     position:fixed;
