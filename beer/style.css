@@ -1,0 +1,88 @@
+
+
+:root {
+    --sort: #000;
+    --grå: #333;
+    --hvid: #fdfdeb;
+}
+
+
+header {
+    position:fixed;
+    display:flex;
+    top:0;
+    left:0;
+    right:0;
+    background: var(--hvid);
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+    padding: 30px 7%;
+    display: flex;
+    justify-content: space-around;
+    z-index: 1000;
+    text-transform: uppercase;
+}
+
+header .menu {
+    font-weight: bolder;
+    font-size: 15px;
+    color: var(--hvid);
+}
+
+header .navbar ul {
+    list-style: none;
+}
+
+header .navbar ul li {
+    text-decoration-line: underline;
+    text-decoration-color: var(--hvid);
+    position: relative;
+    float: left;
+    right: 10px;
+}
+
+header .navbar ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    padding: 15px;
+    color: var(--sort);
+    display: block;
+}
+
+header .navbar ul li a:hover {
+    background: var(--grå);
+    color: var(--hvid);
+}
+
+header .navbar ul li ul {
+    position: absolute;
+    padding: 20px;
+    width: auto;
+    background: var(--hvid);
+    display: none;
+}
+
+header .navbar ul li ul li {
+    width: 100%;
+    /*border-top: 1px solid var(--sort);*/
+}
+
+header .navbar ul li ul li ul {
+    left: 100px;
+    top:0;
+}
+
+header .navbar ul li:focus-within > ul,
+header .navbar ul li:hover > ul {
+    display: block;
+}
+
+header label {
+    font-size: 15px;
+    color: var(--grå);
+    cursor: pointer;
+    display: none;
+}
+
+#menu-bar {
+    display: none;
+}
