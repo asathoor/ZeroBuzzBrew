@@ -190,6 +190,20 @@ header label {
 }
 
 
+#smagskendere {
+    padding: 30px;
+    background-color: var(--sort);
+}
+
+#smagskendere h2 {
+    text-align: center;
+    color: var(--hvid);
+}
+
+#smagskendere figure {
+    display: flex;
+}
+
 
 /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
 .flip-card {
@@ -226,15 +240,16 @@ header label {
   
   /* Style the front side (fallback if image is missing) */
   .flip-card-front {
-    background-color: #bbb;
+    background-color: var(--sort);
     color: black;
   }
   
   /* Style the back side */
   .flip-card-back {
-    background-color: dodgerblue;
-    color: white;
+    background-color: var(--sort);
+    color: var(--hvid);
     transform: rotateY(180deg);
+    align-content: center;
   }
 
 
