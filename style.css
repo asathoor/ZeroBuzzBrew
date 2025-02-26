@@ -16,68 +16,103 @@
     --signika:    font-family: "Signika", serif;
 }
 
+* {
+    margin: 0%;
+}
+
+
+
 header {
-    position:fixed;
-    display:flex;
-    top:0;
-    left:0;
-    right:0;
+    position: fixed;
+    width: 100%;
     background: var(--hvid);
     box-shadow: 0 5px 10px rgba(0,0,0,0.1);
-    padding: 30px 7%;
+    padding: 20px 4%;
     display: flex;
-    justify-content: space-around;
     z-index: 1000;
     text-transform: uppercase;
+    border: 2px solid blue;
+
+}
+
+header .navbar {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid red;
+
+}
+
+#headlogo {
+    height: 100%;
+    border: 2px solid blue;
 }
 
 header .menu {
     font-weight: bolder;
     font-size: 15px;
     color: var(--hvid);
+    border: 2px solid rgb(0, 255, 98);
+
+
 }
 
 header .navbar ul {
     list-style: none;
+    width: 60%;
+    padding: 0%;
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid blue;
+    align-self: flex-end;
+
+
 }
 
 header .navbar ul li {
-    text-decoration-line: underline;
     text-decoration-color: var(--hvid);
     position: relative;
-    float: left;
-    right: 10px;
+    border: 2px solid pink;
+
 }
 
 header .navbar ul li a {
     text-decoration: none;
     font-size: 20px;
     padding: 15px;
+    padding-bottom: 0px;
     color: var(--sort);
     display: block;
+    border: 2px solid rgb(141, 185, 158);
+
 }
 
 header .navbar ul li a:hover {
     background: var(--grå);
-    color: var(--hvid);
+    color: var(--orange);
+    
 }
 
 header .navbar ul li ul {
     position: absolute;
-    padding: 20px;
     width: auto;
     background: var(--hvid);
     display: none;
+    border: 2px solid rgb(255, 174, 0);
+
 }
 
 header .navbar ul li ul li {
     width: 100%;
     /*border-top: 1px solid var(--sort);*/
+    border: 2px solid rgb(202, 141, 103);
+
 }
 
 header .navbar ul li ul li ul {
     left: 100px;
     top:0;
+    
 }
 
 header .navbar ul li:focus-within > ul,
