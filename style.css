@@ -213,30 +213,30 @@ header label {
 
 
 
-#smagskendere {
+.smagskendere {
     padding: 30px;
     background-color: var(--sort);
   }
 
-#smagskendere h2 {
+.smagskendere h2 {
     text-align: center;
     color: var(--hvid);
     margin-bottom: 15px;
 }
 
-#smagskendere figure {
+.smagskendere figure {
     display: flex;
     justify-content: space-evenly;
     height: 250px;
 }
 
-#smagskendere figure p {
+.smagskendere figure p {
     width: 90%;
     margin: auto;
 }
 
 
-#card {
+.card {
     text-align: center;
     color: var(--hvid);
     padding: 5px;
