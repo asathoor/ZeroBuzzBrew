@@ -442,12 +442,18 @@ header label {
 
 .kobsIkoner {
     display: flex;
-    align-self: center;
+    align-items: center;
     gap: 10px;
+    padding-top: 10px;
+}
+
+.kobsIkoner .mindre {
+    width: 25px;
 }
 
 .kobsIkoner button {
     width: 100px;
+    height: 40px;
     font-family: var(--signika);
     font-size: 16px;
     background-color: var(--gron);
