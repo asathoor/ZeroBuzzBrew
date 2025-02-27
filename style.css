@@ -365,6 +365,21 @@ header label {
     color: var(--hvid);
 }
 
+#produktiontekst3 img {
+    height: 400px;
+}
+
+
+#produktiontekst2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    width: 85%;
+    line-height: 1.6;
+    padding-top: 3%;
+    margin: auto;
+}
+
 
 
 
