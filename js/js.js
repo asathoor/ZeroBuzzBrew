@@ -18,7 +18,7 @@ hoved.innerHTML += `
             <ul>
                 <li><a href="#">Vores Øl</a>
                     <ul>
-                        <li><a href="#">Beskrivelse af øllene</a></li>
+                        <li><a href="oversigt.html">Beskrivelse af øllene</a></li>
                         <li><a href="testforide.html">Test hvilken øl der passer til din smag</a></li>
                         <li><a href="ourbeer.html">Alkoholfri øl produktion</a></li>
                     </ul>
@@ -27,14 +27,14 @@ hoved.innerHTML += `
                 <li><a href="#">Shop</a>
                     <ul>
                         <li><a href="oversigt.html">Oversigt over øllene</a></li>
-                        <li><a href="#">Abonnement</a></li>
+                        <li><a href="abonnement.html">Abonnement</a></li>
                     </ul>
                 </li>
 
                 <li><a href="#">Om Os</a>
                     <ul>
-                        <li><a href="/info.html">Vores historie</a></li>
-                        <li><a href="#">Kontakt</a></li>
+                        <li><a href="omos.html">Vores historie</a></li>
+                        <li><a href="fejl404">Kontakt</a></li>
                     </ul>
                 </li>
 
@@ -69,11 +69,11 @@ fod.innerHTML += `
                     <p>ZeroBuzz@Brew.dk</p>
                 </div>
                 <div id="footerlinks">
-                    <a href="abonnoment.html">Shop</a>
-                    <a href="abonnoment.html">Om Os</a>
-                    <a href="abonnoment.html">Vores Øl</a>
+                    <a href="oversigt.html">Shop</a>
+                    <a href="omos.html">Om Os</a>
+                    <a href="ourbeer.html">Vores Øl</a>
                     <a href="abonnoment.html">Abonnoment</a>
-                    <a href="abonnoment.html">FAQ</a>
+                    <a href="fejl404.html">FAQ</a>
                 </div>
             </div>
             <div id="socialmedier">
