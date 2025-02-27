@@ -380,8 +380,58 @@ header label {
     margin: auto;
 }
 
+.fejl {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    width: 70%;
+    line-height: 1.6;
+    padding-top: 3%;
+    margin: auto;
+    align-items: center;
+    color: var(--sort);
+}
 
+#fejltekst h1 {
+    font-size: 4.5rem;
+}
 
+#fejltekst p {
+    font-size: 30px;
+}
+
+#fejltekst {
+    text-align: center;
+}
+
+#fejlbillede img {
+    width: 460px;
+}
+
+.tilbageforsideknap {
+    border: none;
+    color: var(--hvid);
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  
+  .tilbageforsideknap {
+    background-color: var(--sort); 
+    color: var(--hvid); 
+    border: 2px solid var(--sort);
+    border-radius: 24px;
+  }
+  
+  .tilbageforsideknap:hover {
+    background-color: var(--graa);
+    color: var(--sort);
+  }
 
 #oversigth2 {
     color: var(--sort);
