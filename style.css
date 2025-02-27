@@ -383,6 +383,35 @@ header label {
 
 
 
+#oversigth2 {
+    color: var(--sort);
+    text-align: center;
+    padding: 30px;
+}
+
+#oversigt {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+#oversigt .varianter img {
+    width: 40%;
+}
+
+#oversigt .varianter  {
+    width: 33%;
+    padding: 20px;
+}
+
+#oversigt a  {
+    text-decoration: none;
+    color: var(--sort);
+}
+
+
 
 
 
