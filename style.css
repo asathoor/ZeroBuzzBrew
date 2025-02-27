@@ -412,6 +412,128 @@ header label {
 }
 
 
+.produkt {
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    margin: auto;
+    padding: 40px;
+    gap: 80px;
+}
+
+
+.beskrivelse {
+    width: 40%;
+    padding-top: 20px;
+}
+
+.beskrivelse img {
+    width: 40px;
+}
+
+.beskrivelse p {
+    font-size: 20px;
+}
+
+.beskrivelse .pris {
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+.kobsIkoner {
+    display: flex;
+    align-self: center;
+    gap: 10px;
+}
+
+.kobsIkoner button {
+    width: 100px;
+    font-family: var(--signika);
+    font-size: 16px;
+    background-color: var(--gron);
+    color: var(--sort);
+    border-radius: 10px;
+    border: 0px;
+}
+
+.kobsIkoner button:hover {
+    background-color: var(--blaa);    
+}
+
+.billedeAfDase {
+    width: 40%;
+}
+
+.billedeAfDase img {
+    width: 70%;
+}
+
+
+
+.information {
+    color: var(--sort);
+    width: 70%;
+    margin: auto;
+    padding: 50px;
+}
+
+.information h2 {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.information .tekstInformation {
+    display: flex;
+    gap: 50px;
+}
+
+.information .tekstInformation div {
+    width: 50%;
+    font-size: 20px;
+}
+
+
+
+.specifikationer {
+    background-color: var(--sort);
+    color: var(--hvid);
+    text-align: center;
+    padding: 30px;
+}
+
+.specifikationer h2 {
+    padding: 20px;
+}
+
+.varedeklartion {
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    margin: auto;
+}
+
+.speciKasse {
+    background-color: var(--hvid);
+    color: var(--sort);
+    width: 100px;
+    height: 100px;
+    display: block;
+
+}
+
+.speciKasse h4 {
+    font-family: var(--signika);
+    font-weight: bold;
+    font-size: 25px;
+    height: 80%;
+    width: 100%;
+    align-content: center;
+}
+
+.speciKasse p {
+    font-size: 13px;
+    height: 20%;
+}
 
 
 
