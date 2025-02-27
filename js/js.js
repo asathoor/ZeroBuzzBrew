@@ -16,7 +16,7 @@ hoved.innerHTML += `
             </a>
 
             <ul>
-                <li><a href="#">Vores Øl</a>
+                <li><a href="ourbeer.html">Vores Øl</a>
                     <ul>
                         <li><a href="oversigt.html">Beskrivelse af øllene</a></li>
                         <li><a href="testforide.html">Test hvilken øl der passer til din smag</a></li>
@@ -24,14 +24,14 @@ hoved.innerHTML += `
                     </ul>
                 </li>
                         
-                <li><a href="#">Shop</a>
+                <li><a href="oversigt.html">Shop</a>
                     <ul>
                         <li><a href="oversigt.html">Oversigt over øllene</a></li>
                         <li><a href="abonnement.html">Abonnement</a></li>
                     </ul>
                 </li>
 
-                <li><a href="#">Om Os</a>
+                <li><a href="omod.html">Om Os</a>
                     <ul>
                         <li><a href="omos.html">Vores historie</a></li>
                         <li><a href="fejl404">Kontakt</a></li>
