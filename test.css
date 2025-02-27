@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Signika:wght@300..700&display=swap');
+
+
+* {
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --sort: #172442;
+    --hvid: #fdfdeb;
+    --gron:#c5d27f;
+    --orange: #f39c45;
+    --blaa:#89b9cf;
+    --lysrod: #f3a0b9;
+    --lilla: #5d4aa1;
+    --brun: #57341c;
+    --graa: #5e6b7f;
+
+    
+    --fatface:"Abril Fatface", serif;
+    --signika: "Signika", sans-serif;
+}
+
+body {
+    background-color: var(--sort);
+    color: var(--hvid);
+}
+header {
+    width: 100%;
+    background: var(--sort);
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+    padding: 20px 4%;
+    display: flex;
+    z-index: 1000;
+    text-transform: none;
+    position: sticky;
+}
+
+header .navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#headlogo {
+    width: 170px;
+}
+
+.headikon {
+    width: 60%;
+}
+
+.headikoncontainer {
+    display: flex;
+    justify-content: space-between;
+    width: 15%;
+    align-self: center;
+    padding-top: 20px;
+
+}
+
+header .navbar ul {
+    list-style: none;
+    width: 60%;
+    padding: 0%;
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+}
+
+header .navbar ul li {
+    text-decoration-color: var(--hvid);
+    position: relative;
+    width: 120%;
+    text-align: center;
+}
+
+header .navbar ul li a {
+    text-decoration: none;
+    font-size: 25px;
+    padding: 15px;
+    padding-bottom: 0px;
+    color: var(--hvid);
+    display: block;
+}
+
+header .navbar ul li a:hover {
+    background: var(--grå);
+    color: var(--orange);
+}
+
+header .navbar ul li ul {
+    position: absolute;
+    width: 100%;
+    background: var(--sort);
+    display: none;
+}
+
+header .navbar ul li ul li {
+    width: 100%;
+
+    /*border-top: 1px solid var(--sort);*/
+}
+
+header .navbar ul li ul li a{
+    width: 100%;
+    font-size: 20px;
+    padding: 10px;
+
+    /*border-top: 1px solid var(--sort);*/
+}
+
+header .navbar ul li ul li ul {
+    left: 100px;
+    top:0;
+}
+
+header .navbar ul li:focus-within > ul,
+header .navbar ul li:hover > ul {
+    display: block;
+}
+
+header label {
+    font-size: 15px;
+    color: var(--grå);
+    cursor: pointer;
+    display: none;
+}
+
+#menu-bar {
+    display: none;
+}
+
+h1{
+    font-size: 40px;
+    text-align: center;
+}
+
+h2{
+    font-size: 25px;
+    font-family: var(--signika);
+    font-weight: 100;
+    margin-left: 32px;
+}
+
+span{
+    float: right;
+    padding: 30px;
+}
+
+footer {
+    background-color: var(--sort);
+    color: var(--hvid);
+    padding: 5%;
+    line-height: 1.6;
+    display: flex;;
+    width: 100%;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+    width: 100%;
+}
+
+#footerlinks {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: space-between;
+    align-self: flex-end;
+}
+
+footer a {
+    font-family: var(--signika);
+}
+
+/* unvisited link */
+footer a:link {
+    color: var(--hvid);
+  }
+  
+  /* visited link */
+footer a:visited {
+    color: var(--hvid);
+  }
+  
+  /* mouse over link */
+footer a:hover {
+    color: var(--graa);
+  }
+  
+  /* selected link */
+footer a:active {
+    color: var(--blaa);
+  }
+
+#socialmedier {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: end;
+}
+
+#socialmedier img {
+    width: 60px;
+    height: 60px;
+}
+
+
+
+#section1 {
+    display: flex;
+    gap: 10%;
+    width: 50%;
+}
