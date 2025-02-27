@@ -151,6 +151,18 @@ h2{
     font-size:100px
 }
 
+/* unvisited link */
+.pil a:link {
+    color: var(--hvid);
+    text-decoration: none;
+  }
+  
+  /* visited link */
+.pil a:visited {
+    color: var(--hvid);
+    text-decoration: none;
+  }
+
 footer {
     background-color: var(--sort);
     color: var(--hvid);
