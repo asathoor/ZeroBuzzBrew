@@ -145,9 +145,10 @@ h2{
     margin-left: 32px;
 }
 
-span{
+.pil{
     float: right;
     padding: 30px;
+    font-size:100px
 }
 
 footer {
