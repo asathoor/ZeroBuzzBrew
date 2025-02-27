@@ -346,19 +346,24 @@ header label {
     color: var(--hvid);
 }
 
-.facts img {
+.facts img, .factsmork img, .kontaktoplysninger img {
     width: 80px;
     height: 80px;
     margin: 20px;
 }
 
 .factsmork {
+    padding: 100px;
     background-color: var(--hvid);
-    color: var(--sort);
 }
 
+.factsmork p {color: var(--sort);}
 
-
+.kontaktoplysninger {
+    padding: 100px;
+    background-color: var(--sort);
+    color: var(--hvid);
+}
 
 
 
