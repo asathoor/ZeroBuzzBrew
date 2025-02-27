@@ -145,11 +145,41 @@ h2{
     margin-left: 32px;
 }
 
-.pil{
+.pilh{
     float: right;
     padding: 30px;
     font-size:100px
 }
+
+/* unvisited link */
+.pilh a:link {
+    color: var(--hvid);
+    text-decoration: none;
+  }
+  
+  /* visited link */
+.pilh a:visited {
+    color: var(--hvid);
+    text-decoration: none;
+  }
+
+  .pilv{
+    float: left;
+    padding: 30px;
+    font-size:100px
+}
+
+/* unvisited link */
+.pilv a:link {
+    color: var(--hvid);
+    text-decoration: none;
+  }
+  
+  /* visited link */
+.pilv a:visited {
+    color: var(--hvid);
+    text-decoration: none;
+  }
 
 footer {
     background-color: var(--sort);
