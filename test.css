@@ -37,13 +37,6 @@ header {
     position: sticky;
 }
 
-header .navbar {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-
-}
-
 #headlogo {
     width: 170px;
 }
@@ -133,16 +126,28 @@ header label {
     display: none;
 }
 
-h1{
-    font-size: 40px;
-    text-align: center;
-}
+
+
+
+
 
 h2{
+    font-size: 40px;
+    text-align: center;
+    padding: 20px;
+}
+
+p{
     font-size: 25px;
     font-family: var(--signika);
     font-weight: 100;
     margin-left: 32px;
+}
+
+button {
+    margin: 30px;
+    width: 80px;
+    height: 50px;
 }
 
 .pilh{
@@ -181,70 +186,7 @@ h2{
     text-decoration: none;
   }
 
-footer {
-    background-color: var(--sort);
-    color: var(--hvid);
-    padding: 5%;
-    line-height: 1.6;
-    display: flex;;
-    width: 100%;
-}
-
-.footer {
-    display: flex;
-    justify-content: space-between;
-    gap: 60px;
-    width: 100%;
-}
-
-#footerlinks {
-    display: flex;
-    flex-direction: column;
-    align-self: center;
-    justify-content: space-between;
-    align-self: flex-end;
-}
-
-footer a {
-    font-family: var(--signika);
-}
-
-/* unvisited link */
-footer a:link {
-    color: var(--hvid);
-  }
-  
-  /* visited link */
-footer a:visited {
-    color: var(--hvid);
-  }
-  
-  /* mouse over link */
-footer a:hover {
-    color: var(--graa);
-  }
-  
-  /* selected link */
-footer a:active {
-    color: var(--blaa);
-  }
-
-#socialmedier {
-    display: flex;
-    justify-content: space-between;
-    gap: 20px;
-    align-items: end;
-}
-
-#socialmedier img {
-    width: 60px;
-    height: 60px;
-}
-
-
-
-#section1 {
-    display: flex;
-    gap: 10%;
-    width: 50%;
+footer p {
+    font-size: 15px;
+    
 }

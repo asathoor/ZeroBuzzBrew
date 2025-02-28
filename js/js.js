@@ -82,3 +82,155 @@ fod.innerHTML += `
             </div>
         </div>
 `
+
+function baby( tjek ){
+    if (tjek === false){
+        /** HTML "injektion" */
+        erDetBaby.innerHTML = `
+        <h2>Nå...</h2><br>
+        <label>Er det skraldespanden</label>
+        <button id="ja" onclick="skralde(true)">Ja</button>
+        <button id="nej" onclick="skralde(false)">Nej</button>`    
+    }
+    else {
+        /** HTML "injektion" */
+        erDetBaby.innerHTML = `
+            <h2>Tag baby ind i puslerum og læg på puslebord</h2>
+            <button id="ja" onclick="toj(true)">Klik her når baby ligger på puslebordet</button>        
+        `
+    }
+}
+
+function baby() {
+    sporgsmal.innerHTML = `
+    <p>
+        Sprøgsmål 1 ud af 5 <br> <br>
+        Hvad er din fortrukkende smag? <br>
+           
+    </p>
+    <button id="svar1" onclick="style='background-color:#c5d27f;'">Æble</button>
+    <button id="svar2" onclick="style='background-color:#c5d27f;'">Frugt</button>
+    <button id="svar3" onclick="style='background-color:#c5d27f;'">Frisk</button>
+    `
+    pilh.innerHTML = `
+        <a onclick="nr2()"> &#8594;</a>
+
+    `
+}
+
+
+
+
+function nr2(){
+    
+        sporgsmal.innerHTML = `
+        <p>
+            Sprøgsmål 2 ud af 5 <br> <br>
+            Foretrækker du meget eller lidtbundfald? <br>  
+        </p>
+        <button id="svar1" onclick="style='background-color:#c5d27f;'">meget</button>
+        <button id="svar2" onclick="style='background-color:#c5d27f;'">Midt i mellem</button>
+        <button id="svar3" onclick="style='background-color:#c5d27f;'">Lidt</button>
+    `    
+   
+    pilh.innerHTML = `
+        <a onclick="nr3()"> &#8594;</a>
+
+    `
+
+}
+
+function nr3(){
+    
+    sporgsmal.innerHTML = `
+    <p>
+        Sprøgsmål 3 ud af 5 <br> <br>
+        Kan du lide din øl filteret? <br>  
+    </p>
+    <button id="svar1" onclick="style='background-color:#c5d27f;'">Ja</button>
+    <button id="svar2" onclick="style='background-color:#c5d27f;'">Nej</button>
+    <button id="svar3" onclick="'style="background-color:#c5d27f;'">Ved ikke</button>
+`    
+
+pilh.innerHTML = `
+    <a onclick="nr4()"> &#8594;</a>
+
+`
+}
+
+function nr4(){
+    sporgsmal.innerHTML = `
+    <p>
+        Sprøgsmål 4 ud af 5 <br> <br>
+        Fortrækker du din øl lys eller mørk? <br>  
+    </p>
+    <button id="svar1" onclick="style='background-color:#c5d27f;'">Ja</button>
+    <button id="svar2" onclick="style='background-color:#c5d27f;'">Nej</button>
+    <button id="svar3" onclick="style='background-color:#c5d27f;'">Ingen præference</button>
+`    
+
+pilh.innerHTML = `
+    <a onclick="nr5()"> &#8594;</a>
+
+`
+}
+
+function nr5(){
+    
+    sporgsmal.innerHTML = `
+    <p>
+        Sprøgsmål 5 ud af 5 <br> <br>
+        Fortrækker du en grumset øl? <br>  
+    </p>
+    <button id="svar1" onclick="style='background-color:#c5d27f;'">Ja</button>
+    <button id="svar2" onclick="style='background-color:#c5d27f;'">Nej</button>
+    <button id="svar3" onclick="style='background-color:#c5d27f;'">Ingen præference</button>
+`    
+
+pilh.innerHTML = `
+    <a onclick="res()"> &#8594;</a>
+
+`
+}
+
+/** Lister: arrays... */
+// lister markeres med []
+let koeleskab = [
+    "billede 1", 
+    "billede 2", 
+    "billede 3", 
+    "billede 4", 
+    "billede 5", 
+    "billede 6", 
+    "billede 7", 
+    "billede 8", 
+    "billede 9", 
+    "billede 10", 
+    "billede 11", 
+    "billede 12"
+];
+
+
+const imgEl = document.getElementById('randomImage');
+const btn = document.getElementById('btn')
+
+const srcArray = ['<img src="js/blaa.webp">', '<img src="js/blaa.webp">', 'blaa.webp', 'blaa.webp'];
+
+imgEl.src = srcArray[0];
+
+btn.addEventListener('click', () => {
+    window.location.reload();
+});
+
+function res() {
+    main.innerHTML = `
+    <h2>
+        Tillykke her er din top 3 øl
+    </h2>
+    
+    <img id="randomImage" src="" alt="random image">
+    <button id="btn">Noget tekstt</button>
+    `
+}
+
+
