@@ -197,28 +197,29 @@ let koeleskab = [
 const imgEl = document.getElementById('randomImage');
 const btn = document.getElementById('btn');
 
-const srcArray = [
-    "<img src='js/blaa.webp'>",
-    "<img src='js/blaa.webp'>",
-    "<img src='js/blaa.webp'>",
-    "<img src='js/blaa.webp'>"
-    ];
-
-
-imgEl.src = srcArray[0];
-
-
 //at lave den random
 
 function res() {
+
+    let srcArray = [
+        "<img src='js/blaa.webp'>",
+        "<img src='js/blaa.webp'>",
+        "<img src='js/blaa.webp'>",
+        "<img src='js/blaa.webp'>"
+        ]
+    
+
     //alert("hej verden")
     main.innerHTML = `
     <h2>
         Tillykke her er din top 3 øl
     </h2>
-
     `
-    main.innerHTML += "<img id='randomImage' src='" + srcArray[0] + "' alt='lorem'>"
+    // tilfældig værdi med .length på galleriet, der kan udviddes ad libitum
+    let rnd = Math.floor(Math.random()*srcArray.length)
+
+    // viser billedet (der skal ikke laves en img tag for den er allerede lavet i arrayet)
+    main.innerHTML += srcArray[rnd]
 }
 
 
