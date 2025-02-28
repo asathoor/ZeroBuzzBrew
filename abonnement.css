@@ -1,11 +1,13 @@
 h1 {
     text-align: center;
     margin-top: 5%;
+    color: #172442;
 }
 
 p {
     margin-left: 8%;
     margin-top: 4%;
+    color: #172442;
 }
 
 h2 {
@@ -40,7 +42,7 @@ h2 {
 }
 
 .Amberlager {
-    border: 2px solid #000;
+    border: 2px solid #172442;
     display: flex;
 }
 
@@ -61,6 +63,7 @@ line-height: 90px;
 
 .beskrivelse {
     margin: 10%;
+    color: #172442;
 }
 
 button {
@@ -72,3 +75,18 @@ button {
     font-size: large;
    margin-left: 47%;
 }
+
+div.scroll-container {
+  background-color: #fdfdeb;
+  overflow: auto;
+  white-space: nowrap;
+  padding: 10px;
+}
+
+div.scroll-container img {
+  padding: 10px;
+}
+
+
+
+
