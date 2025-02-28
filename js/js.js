@@ -34,7 +34,7 @@ hoved.innerHTML += `
                 <li><a href="omod.html">Om Os</a>
                     <ul>
                         <li><a href="omos.html">Vores historie</a></li>
-                        <li><a href="fejl404">Kontakt</a></li>
+                        <li><a href="fejl404.html">Kontakt</a></li>
                     </ul>
                 </li>
 
