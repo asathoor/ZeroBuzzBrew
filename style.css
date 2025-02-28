@@ -469,6 +469,7 @@ header label {
     margin: auto;
     padding: 40px;
     gap: 80px;
+    color: var(--sort);
 }
 
 

@@ -41,15 +41,15 @@ hoved.innerHTML += `
             </ul>
 
             <div class="headikoncontainer">
-                <a href="shop.html">
+                <a href="fejl404.html">
                     <img src="/img/profile.webp" class="headikon" alt="ikon af profil">
                 </a>
 
-                <a href="#">
+                <a href="fejl404.html">
                     <img src="/img/search.webp" class="headikon" alt="ikon af loop til søgning af ord">
                 </a>
 
-                <a href="#">
+                <a href="fejl404.html">
                     <img src="/img/kurv.webp" class="headikon" alt="ikon til shoppingkurv og køb">
                 </a>
             </div>
