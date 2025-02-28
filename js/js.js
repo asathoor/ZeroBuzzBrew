@@ -58,8 +58,6 @@ hoved.innerHTML = `
 `
 
 
-
-
 fod.innerHTML += `
 <div class="footer">
             <div id="section1">
@@ -86,25 +84,9 @@ fod.innerHTML += `
         </div>
 `
 
-function baby( tjek ){
-    if (tjek === false){
-        /** HTML "injektion" */
-        erDetBaby.innerHTML = `
-        <h2>Nå...</h2><br>
-        <label>Er det skraldespanden</label>
-        <button id="ja" onclick="skralde(true)">Ja</button>
-        <button id="nej" onclick="skralde(false)">Nej</button>`    
-    }
-    else {
-        /** HTML "injektion" */
-        erDetBaby.innerHTML = `
-            <h2>Tag baby ind i puslerum og læg på puslebord</h2>
-            <button id="ja" onclick="toj(true)">Klik her når baby ligger på puslebordet</button>        
-        `
-    }
-}
 
-function baby() {
+
+function nr1() {
     sporgsmal.innerHTML = `
     <p>
         Sprøgsmål 1 ud af 5 <br> <br>
@@ -120,8 +102,6 @@ function baby() {
 
     `
 }
-
-
 
 
 function nr2(){
@@ -215,25 +195,37 @@ let koeleskab = [
 
 
 const imgEl = document.getElementById('randomImage');
-const btn = document.getElementById('btn')
+const btn = document.getElementById('btn');
 
-const srcArray = ['<img src="js/blaa.webp">', '<img src="js/blaa.webp">', 'blaa.webp', 'blaa.webp'];
+const srcArray = [
+    "<img src='js/blaa.webp'>",
+    "<img src='js/blaa.webp'>",
+    "<img src='js/blaa.webp'>",
+    "<img src='js/blaa.webp'>"
+    ];
+
 
 imgEl.src = srcArray[0];
 
-btn.addEventListener('click', () => {
-    window.location.reload();
-});
+
+//at lave den random
 
 function res() {
+    //alert("hej verden")
     main.innerHTML = `
     <h2>
         Tillykke her er din top 3 øl
     </h2>
-    
-    <img id="randomImage" src="" alt="random image">
-    <button id="btn">Noget tekstt</button>
+
     `
+    main.innerHTML += "<img id='randomImage' src='" + srcArray[0] + "' alt='lorem'>"
 }
+
+
+/*
+function end_img(){
+    randomImage.innerHTML = srcArray[Math.floor(Math.random() + srcArray.length)]
+
+}*/
 
 
