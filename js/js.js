@@ -3,7 +3,7 @@ fil: js.js
 formål: at lave javsscript til vores hjemmeside
 */
 
-hoved.innerHTML += `
+hoved.innerHTML = `
  
         <a href="" class="menu"></a>
         <input type="checkbox" id="menu-bar">
@@ -11,7 +11,7 @@ hoved.innerHTML += `
 
         <nav class="navbar">
 
-            <a href="index.html">
+            <a href="index.html" id="logoid">
                 <img src="/img/logolys.png" id="headlogo" alt="logo">
             </a>
 
@@ -56,6 +56,9 @@ hoved.innerHTML += `
         </nav>
 
 `
+
+
+
 
 fod.innerHTML += `
 <div class="footer">
